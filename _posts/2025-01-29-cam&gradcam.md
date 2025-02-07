@@ -4,8 +4,6 @@ title: "CAM与Grad_CAM的原理和代码"
 date: 2025-01-29
 ---
 
-# CAM与Grad_CAM的原理和代码
-
 ## 前言
 
 深度学习模型，通常被认为是“黑箱”，即输入和输出之间的关系不易理解。通过模型的可视化，可以让我们更好得理解和改进模型。可视化中最著名的方法就是CAM家族，英文名是Class Activation Mapping，中文名是类激活映射。
@@ -125,7 +123,7 @@ def resnet18(num_classes=1000):
 CAM原文“Learning Deep Features for Discriminative Localization”，发表在cvpr2016上。CAM的原理非常简单：
 
 <p align="center">
-    <img src="./cam&gradcam_image/cam.png" alt="CAM论文的示意图" width=500/>
+    <img src="_posts/cam&gradcam_image/cam.png" alt="CAM论文的示意图" width=500/>
 </p>
 
 对类别$K$来说，其类激活映射的计算方式是：
