@@ -1,4 +1,6 @@
 name: gray98
 markdown: kramdown
+plugins:
+  - jekyll-mathjax
 permalink: /blog/:year/:month/:day/:title
 
