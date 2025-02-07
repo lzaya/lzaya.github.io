@@ -123,7 +123,7 @@ def resnet18(num_classes=1000):
 CAM原文“Learning Deep Features for Discriminative Localization”，发表在cvpr2016上。CAM的原理非常简单：
 
 <p align="center">
-    <img src="assets/images/cam.png" alt="CAM论文的示意图" width=500/>
+    <img src="https://lzaya.github.io/assets/images/cam.png" alt="CAM论文的示意图" width=500/>
 </p>
 
 对类别$K$来说，其类激活映射的计算方式是：
